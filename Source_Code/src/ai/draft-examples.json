@@ -1,0 +1,418 @@
+[
+  {
+    "id": "aid-general",
+    "office": "financial-aid",
+    "cues": "financial aid funding support question assistance",
+    "questions": [
+      "How can I speak to an advisor about financial aid?",
+      "What should I have ready when I ask about financial aid?",
+      "Could you tell me where to start with my funding question?"
+    ]
+  },
+  {
+    "id": "aid-payment",
+    "office": "financial-aid",
+    "cues": "award missing disbursement didn't come through late hasn't arrived grant released pending status delay",
+    "questions": [
+      "How can I check the status of my financial aid?",
+      "What should I do if my financial aid has not arrived?",
+      "Could you help me find out why my aid is still pending?",
+      "Where can I check whether my aid has been released?"
+    ]
+  },
+  {
+    "id": "aid-application",
+    "office": "financial-aid",
+    "cues": "fafsa apply application eligibility forms scholarship requirements submit qualify",
+    "questions": [
+      "How can I check which financial aid forms I need?",
+      "What should I prepare before applying for financial aid?",
+      "Could you help me work out my next application step?"
+    ]
+  },
+  {
+    "id": "student-bill",
+    "office": "student-accounts",
+    "cues": "tuition payment balance bill charge deadline refund account",
+    "questions": [
+      "How can I check the balance on my student account?",
+      "Who can help me understand a charge on my bill?",
+      "Could you tell me how to check a payment or refund?"
+    ]
+  },
+  {
+    "id": "records",
+    "office": "registrar",
+    "cues": "records transcript diploma copy official graduation verification",
+    "questions": [
+      "How can I request a copy of my academic records?",
+      "What do I need to request an official transcript?",
+      "Could you explain the steps for requesting my records?"
+    ]
+  },
+  {
+    "id": "registration",
+    "office": "registrar",
+    "cues": "enroll add drop register registration course section",
+    "questions": [
+      "How can I check what is holding up my registration?",
+      "Who can help me with a course registration issue?",
+      "Could you tell me what to do next about enrollment?"
+    ]
+  },
+  {
+    "id": "course-plan",
+    "office": "academic-advising",
+    "cues": "advisor course degree schedule plan credits selecting",
+    "questions": [
+      "How can I meet with an advisor about my course plan?",
+      "What should I bring to a meeting about my degree plan?",
+      "Could you help me choose courses for next semester?"
+    ]
+  },
+  {
+    "id": "tutoring",
+    "office": "tutoring",
+    "cues": "homework study tutor course class exam support",
+    "questions": [
+      "How can I find tutoring for my course?",
+      "Could you tell me how to arrange a tutoring session?",
+      "Where can I see which courses have tutoring available?"
+    ]
+  },
+  {
+    "id": "career",
+    "office": "career-center",
+    "cues": "career job jobs internship employer application fair advising",
+    "questions": [
+      "How can I get feedback on my resume?",
+      "Could you help me plan my next career advising appointment?",
+      "Where can I find help with a job or internship application?"
+    ]
+  },
+  {
+    "id": "career-resume",
+    "office": "career-center",
+    "cues": "resume cv review feedback edit format writing",
+    "questions": [
+      "How can I get a review of my resume?",
+      "Where can I make an appointment for resume feedback?",
+      "Could you tell me how to meet with someone about my resume?"
+    ]
+  },
+  {
+    "id": "it-login",
+    "office": "it-service-desk",
+    "cues": "netid password log login locked account cannot access email reset",
+    "questions": [
+      "How can I get back into my university account?",
+      "What should I try if my campus login is not working?",
+      "Could you help me regain access to my account?"
+    ]
+  },
+  {
+    "id": "it-wifi",
+    "office": "it-service-desk",
+    "cues": "wifi wi-fi wireless network laptop internet connect",
+    "questions": [
+      "How can I connect my device to campus Wi-Fi?",
+      "Could you help me troubleshoot my wireless connection?",
+      "What should I try if my laptop cannot join campus Wi-Fi?"
+    ]
+  },
+  {
+    "id": "health",
+    "office": "health-services",
+    "cues": "clinic appointment health services visit immunization medical",
+    "questions": [
+      "How can I arrange an appointment with Health Services?",
+      "What should I bring to a campus health appointment?",
+      "Who can I contact about scheduling a clinic visit?"
+    ]
+  },
+  {
+    "id": "access",
+    "office": "student-access",
+    "cues": "accessibility accommodations disability testing classroom",
+    "questions": [
+      "How can I start a request for classroom accommodations?",
+      "What information should I prepare for an accommodations request?",
+      "Could you explain the next step in requesting accommodations?"
+    ]
+  },
+  {
+    "id": "international",
+    "office": "international-education",
+    "cues": "visa international documents i20 i-20 cpt opt f1 advising",
+    "questions": [
+      "How can I speak with an advisor about my international student documents?",
+      "What information should I bring to an international advising appointment?",
+      "Could you help me find the right advising appointment?"
+    ]
+  },
+  {
+    "id": "writing",
+    "office": "writing-center",
+    "cues": "essay draft paper revision citation writing feedback",
+    "questions": [
+      "How can I get feedback on a draft of my paper?",
+      "What should I bring to a writing appointment?",
+      "Could you tell me how to make a writing appointment?"
+    ]
+  },
+  {
+    "id": "math",
+    "office": "math-clinic",
+    "cues": "math calculus algebra equation mathematics homework",
+    "questions": [
+      "How can I get help with a math problem?",
+      "What should I bring when I visit for math help?",
+      "Could you tell me how to find tutoring for my math course?"
+    ]
+  },
+  {
+    "id": "testing",
+    "office": "academic-testing",
+    "cues": "exam examination tsi testing placement proctor",
+    "questions": [
+      "How can I register for a placement exam?",
+      "What should I check before coming in for a test?",
+      "Could you explain how to arrange a testing appointment?"
+    ]
+  },
+  {
+    "id": "housing",
+    "office": "housing-office",
+    "cues": "dorm lease rent contract roommate residence apartment move",
+    "questions": [
+      "Who can help me with my campus housing question?",
+      "How can I ask about my housing contract?",
+      "Could you tell me where to get help with student housing?"
+    ]
+  },
+  {
+    "id": "pantry",
+    "office": "maverick-pantry",
+    "cues": "food pantry groceries hunger basic supplies hygiene",
+    "questions": [
+      "How can I find out what I need for a pantry visit?",
+      "Could you tell me how to get groceries from the pantry?",
+      "What should I know before visiting the campus pantry?"
+    ]
+  },
+  {
+    "id": "mav-id",
+    "office": "mav-card",
+    "cues": "lost replacement replace identification id card student badge new photo missing",
+    "questions": [
+      "How can I replace my student ID?",
+      "What should I bring to get a replacement student ID?",
+      "Could you tell me how to request a new student ID?",
+      "Where can I get help replacing my Mav Card?"
+    ]
+  },
+  {
+    "id": "parking-permit",
+    "office": "parking",
+    "cues": "parking permit pass garage lot park car",
+    "questions": [
+      "How can I check which parking permit I need?",
+      "Where can I find the parking options for my commute?",
+      "Could you point me to the permit options for students?"
+    ]
+  },
+  {
+    "id": "parking-ticket",
+    "office": "parking",
+    "cues": "citation ticket appeal fine dispute",
+    "questions": [
+      "How can I ask about a parking citation?",
+      "Where can I find the process for appealing a parking ticket?",
+      "Could you explain my options for a parking citation?"
+    ]
+  },
+  {
+    "id": "shuttle",
+    "office": "mavmover",
+    "cues": "bus shuttle ride route stop mavmover transport",
+    "questions": [
+      "How can I find the shuttle route for my trip?",
+      "Where can I check the stops on a campus bus route?",
+      "Could you help me find the right shuttle stop?"
+    ]
+  },
+  {
+    "id": "budget",
+    "office": "money-management",
+    "cues": "budget saving spending money coaching finances debt",
+    "questions": [
+      "How can I meet with someone about my student budget?",
+      "Where can I get help planning my spending?",
+      "Could you help me set up a financial coaching appointment?"
+    ]
+  },
+  {
+    "id": "veteran",
+    "office": "veterans",
+    "cues": "military veteran hazlewood certification education benefits gi",
+    "questions": [
+      "How can I check my next step for military education benefits?",
+      "What documents should I bring to ask about my education benefits?",
+      "Could you help me find the right contact for veteran benefits?"
+    ]
+  },
+  {
+    "id": "abroad",
+    "office": "study-abroad",
+    "cues": "abroad overseas exchange program country semester travel",
+    "questions": [
+      "How can I explore study abroad options for my degree?",
+      "What should I prepare before meeting an advisor about studying overseas?",
+      "Could you help me find exchange programs that fit my plans?"
+    ]
+  },
+  {
+    "id": "global",
+    "office": "global-engagement",
+    "cues": "international global cultural events friends meet culture",
+    "questions": [
+      "Where can I find upcoming cultural events on campus?",
+      "How can I take part in an international student event?",
+      "Could you point me to activities for meeting other students?"
+    ]
+  },
+  {
+    "id": "sports",
+    "office": "campus-rec",
+    "cues": "sports intramural gym courts fitness club recreation workout",
+    "questions": [
+      "Where can I see the recreation activities offered this semester?",
+      "Where can I check the intramural sports options?",
+      "Could you tell me how to get started with campus recreation?"
+    ]
+  },
+  {
+    "id": "club",
+    "office": "organizations",
+    "cues": "organizations club society group involvement join mavengage",
+    "questions": [
+      "How can I find a student organization to join?",
+      "Where can I see which student clubs are active?",
+      "Could you help me find a club that matches my interests?"
+    ]
+  },
+  {
+    "id": "library-loan",
+    "office": "central-library",
+    "cues": "borrow renew books journals checkout circulation research library",
+    "questions": [
+      "How can I get help borrowing or renewing a library item?",
+      "Where can I ask a librarian about finding materials?",
+      "Could you explain how to check out a library item?"
+    ]
+  },
+  {
+    "id": "library-space",
+    "office": "central-library",
+    "cues": "quiet room reserve space study group",
+    "questions": [
+      "How can I find a library space for studying?",
+      "Where can I check which study rooms are available?",
+      "Could you help me reserve a library study room?"
+    ]
+  },
+  {
+    "id": "fablab",
+    "office": "fablab",
+    "cues": "3d 3-d printer prototype print printing equipment laser maker make",
+    "questions": [
+      "How can I get started with a 3D printer at the FabLab?",
+      "What should I prepare before bringing a design to the FabLab?",
+      "Could you tell me how to use the FabLab equipment?"
+    ]
+  },
+  {
+    "id": "research",
+    "office": "research-lab",
+    "cues": "research data analysis gis statistics consultation software",
+    "questions": [
+      "How can I get advice about analyzing my research data?",
+      "What should I bring to a research data consultation?",
+      "Could you tell me how to arrange a data analysis consultation?"
+    ]
+  },
+  {
+    "id": "media",
+    "office": "the-studios",
+    "cues": "video media podcast recording microphone camera studio editing",
+    "questions": [
+      "How can I arrange to use the recording equipment?",
+      "What should I check before planning a studio recording?",
+      "Could you help me find a space to record a podcast?"
+    ]
+  },
+  {
+    "id": "counseling",
+    "office": "counseling",
+    "cues": "counseling counselling counselor stress anxiety appointment therapist",
+    "questions": [
+      "How can I arrange a counseling appointment?",
+      "Who can I contact to ask about campus counseling services?",
+      "Could you tell me how to get started with counseling?"
+    ]
+  },
+  {
+    "id": "interview",
+    "office": "interview-room",
+    "cues": "quiet private interview room zoom phone virtual reserve",
+    "questions": [
+      "How can I reserve a quiet room for a job interview?",
+      "Where can I check availability for an interview room?",
+      "Could you tell me how to book a space for a video interview?"
+    ]
+  },
+  {
+    "id": "generic",
+    "office": "*",
+    "cues": "next contact process documents service help",
+    "questions": [
+      "What would be a good next step for my request?",
+      "Could you tell me how to get started with this service?",
+      "What information should I have ready when I contact your office?"
+    ]
+  },
+  {
+    "id": "advising-drop",
+    "office": "academic-advising",
+    "cues": "drop dropping withdraw withdrawal retake repeat postpone leave class course again later term semester",
+    "questions": [
+      "What should I consider before dropping this course and taking it next semester?",
+      "Could you help me plan when to retake this course?",
+      "How can I drop this class and fit it into a later semester?",
+      "What steps should I follow to drop this course and take it next term?",
+      "Can we check how dropping this class would affect my degree plan?"
+    ]
+  },
+  {
+    "id": "registrar-drop",
+    "office": "registrar",
+    "cues": "drop withdraw add deadlines procedure form repeat retake class course",
+    "questions": [
+      "Where can I find the drop procedure and deadlines for this course?",
+      "Which withdrawal form should I use to drop this class?",
+      "How can I check the deadline for dropping this course?",
+      "Where can I find the current instructions for dropping a class?"
+    ]
+  },
+  {
+    "id": "aid-load",
+    "office": "financial-aid",
+    "cues": "drop withdrawing fewer credits part time scholarship pell grant changes eligibility credit enrollment",
+    "questions": [
+      "How would taking fewer credits affect my financial aid?",
+      "Could dropping a class change my eligibility for this grant?",
+      "What should I check before reducing my course load?",
+      "Can we review how an enrollment change would affect my award?"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "case": "A11Y-01",
+    "name": "Directory",
+    "status": "Pass",
+    "critical_or_serious": 0,
+    "version": "4.14.1",
+    "violations": []
+  },
+  {
+    "case": "A11Y-02",
+    "name": "Sign in",
+    "status": "Pass",
+    "critical_or_serious": 0,
+    "version": "4.14.1",
+    "violations": []
+  },
+  {
+    "case": "A11Y-03",
+    "name": "Find help",
+    "status": "Pass",
+    "critical_or_serious": 0,
+    "version": "4.14.1",
+    "violations": []
+  },
+  {
+    "case": "A11Y-04",
+    "name": "Bookmarks",
+    "status": "Pass",
+    "critical_or_serious": 0,
+    "version": "4.14.1",
+    "violations": []
+  },
+  {
+    "case": "A11Y-05",
+    "name": "Primary keyboard workflow",
+    "status": "Pass",
+    "observation": "Keyboard login, directory search, details and bookmark update worked."
+  },
+  {
+    "case": "FR-08",
+    "name": "Published notice location",
+    "status": "Scope deviation",
+    "notice_board_visible": true,
+    "listing_visible": false
+  }
+]

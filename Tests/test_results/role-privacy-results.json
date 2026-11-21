@@ -1,0 +1,350 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cases": [
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/resources?status=all",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/resources?status=all",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/resources?status=all",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/resources",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/resources",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/resources",
+      "role": "admin",
+      "expected": 422,
+      "observed": 422
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "PATCH",
+      "route": "/api/resources/mav-card",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "PATCH",
+      "route": "/api/resources/mav-card",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "PATCH",
+      "route": "/api/resources/mav-card",
+      "role": "admin",
+      "expected": 422,
+      "observed": 422
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/categories",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/categories",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/categories",
+      "role": "admin",
+      "expected": 422,
+      "observed": 422
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/notices?manage=1",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/notices?manage=1",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/notices?manage=1",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/notices",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/notices",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/notices",
+      "role": "admin",
+      "expected": 422,
+      "observed": 422
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/analytics",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/analytics",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/analytics",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/admin/unanswered",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/admin/unanswered",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/admin/unanswered",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/admin/unanswered",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/admin/unanswered",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/admin/unanswered",
+      "role": "admin",
+      "expected": 422,
+      "observed": 422
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/account/mode",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/account/mode",
+      "role": "student",
+      "expected": 403,
+      "observed": 403
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/account/mode",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/personal",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/personal",
+      "role": "student",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "GET",
+      "route": "/api/personal",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/personal",
+      "role": "guest",
+      "expected": 401,
+      "observed": 401
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/personal",
+      "role": "student",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-ROLES",
+      "status": "Pass",
+      "method": "POST",
+      "route": "/api/personal",
+      "role": "admin",
+      "expected": 200,
+      "observed": 200
+    },
+    {
+      "case": "NFR-02-PASSWORD",
+      "status": "Pass",
+      "accounts": 2
+    },
+    {
+      "case": "NFR-03-ANALYTICS",
+      "status": "Pass",
+      "guide_status": 200,
+      "analytics_status": 200
+    },
+    {
+      "case": "NFR-03-LOGS",
+      "status": "Pass",
+      "scanned_streams": [
+        "stdout",
+        "stderr"
+      ],
+      "password_markers": 1,
+      "session_token_markers": 2
+    }
+  ]
+}

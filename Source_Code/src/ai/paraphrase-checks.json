@@ -1,0 +1,66 @@
+[
+  [
+    "I have a conversation with a recruiter on camera and nowhere private to sit.",
+    "interview-room"
+  ],
+  [
+    "I’m out of things to eat before payday. Is there somewhere to pick up supplies?",
+    "maverick-pantry"
+  ],
+  [
+    "Someone found my wallet but the plastic badge that gets me into campus buildings is gone.",
+    "mav-card"
+  ],
+  [
+    "My professor wants us to create an audio show. Where can we use sound equipment?",
+    "the-studios"
+  ],
+  [
+    "I need to get in shape. Is there somewhere on campus to lift weights?",
+    "campus-rec"
+  ],
+  [
+    "Can a person check my job application letter before I send it to the company?",
+    "career-center"
+  ],
+  [
+    "I got a fine for where I left my vehicle.",
+    "parking"
+  ],
+  [
+    "I’m uncomfortable sharing a residence hall room with my current roommate; whom do I contact?",
+    "housing-office"
+  ],
+  [
+    "I need a clinician to review my vaccine history.",
+    "health-services"
+  ],
+  [
+    "I would like somebody to read the first version of my English composition.",
+    "writing-center"
+  ],
+  [
+    "I think an overseas exchange would be fun; whom can I ask about earning credit?",
+    "study-abroad"
+  ],
+  [
+    "My research findings are in a spreadsheet. I need a hand interpreting the figures.",
+    "research-lab"
+  ],
+  [
+    "Is there an earlier shuttle from my building to my morning lecture?",
+    "mavmover"
+  ],
+  [
+    "I need to postpone one of my modules until a future term.",
+    "academic-advising"
+  ],
+  [
+    "I’d like to meet a therapist to talk about stress from school.",
+    "counseling"
+  ],
+  [
+    "The Wi-Fi keeps disconnecting my tablet during class.",
+    "it-service-desk"
+  ]
+]

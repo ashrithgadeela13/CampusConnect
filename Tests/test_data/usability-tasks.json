@@ -1,0 +1,9 @@
+{
+  "target": 9,
+  "participants": 10,
+  "seconds": 180,
+  "tasks": [
+    {"prompt":"You lost your student ID. Find the campus office that can help.", "office":"Mav Card Office"},
+    {"prompt":"You need access to a 3D printer for a class project. Find a campus location that can help.", "office":"FabLab"}
+  ]
+}

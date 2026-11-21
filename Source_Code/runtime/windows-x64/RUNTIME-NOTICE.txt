@@ -1,0 +1,10 @@
+Python 3.14.10, Windows embeddable package (x64).
+Publisher: Python Software Foundation.
+Source: https://www.python.org/ftp/python/3.14.10/python-3.14.10-embed-amd64.zip
+SHA-256 of the original archive:
+90905e64a840557d8c1bc4f5b74db3d7ee85e3ffb217611cac1c7813acea4159
+
+The upstream binaries, standard library and license are included unchanged.
+The distribution's python314._pth adds one line (..\..\app) so the
+bundled interpreter can import the adjacent CampusConnect source code.
+See LICENSE.txt in this folder for Python and third-party notices.

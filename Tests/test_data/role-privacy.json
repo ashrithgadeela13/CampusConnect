@@ -1,0 +1,19 @@
+{
+  "roles": ["guest", "student", "admin"],
+  "routes": [
+    ["GET","/api/resources?status=all",null,[401,403,200]],
+    ["POST","/api/resources",{},[401,403,422]],
+    ["PATCH","/api/resources/mav-card",{},[401,403,422]],
+    ["POST","/api/categories",{},[401,403,422]],
+    ["GET","/api/notices?manage=1",null,[401,403,200]],
+    ["POST","/api/notices",{},[401,403,422]],
+    ["GET","/api/analytics",null,[401,403,200]],
+    ["GET","/api/admin/unanswered",null,[401,403,200]],
+    ["POST","/api/admin/unanswered",{},[401,403,422]],
+    ["POST","/api/account/mode",{"mode":"admin"},[401,403,200]],
+    ["GET","/api/personal",null,[401,200,200]],
+    ["POST","/api/personal",{"action":"clearRecent"},[401,200,200]]
+  ],
+  "question": "I lost my student ID.",
+  "synthetic_users": ["qa-student-one","qa-student-two"]
+}

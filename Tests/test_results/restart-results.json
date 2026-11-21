@@ -1,0 +1,37 @@
+{
+  "environment": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cases": [
+    {
+      "id": "NFR05-01",
+      "check": "Edited listing and version",
+      "status": "Pass"
+    },
+    {
+      "id": "NFR05-02",
+      "check": "Published notice visible to guests",
+      "status": "Pass"
+    },
+    {
+      "id": "NFR05-03",
+      "check": "Student bookmark",
+      "status": "Pass"
+    },
+    {
+      "id": "FR10-01",
+      "check": "Student login after restart",
+      "status": "Pass"
+    },
+    {
+      "id": "FR10-02",
+      "check": "Student recent view",
+      "status": "Pass"
+    },
+    {
+      "id": "FR10-03",
+      "check": "Guide category aggregate",
+      "status": "Pass"
+    }
+  ],
+  "before_pid": 25195,
+  "after_pid": 25196
+}

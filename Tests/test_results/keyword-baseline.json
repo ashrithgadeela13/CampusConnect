@@ -1,0 +1,1022 @@
+{
+  "heldout": {
+    "rows": [
+      {
+        "question": "My grant didn't show up this semester; who can check the amount?",
+        "expected": "money",
+        "keyword": [
+          "health",
+          "international",
+          "academics"
+        ],
+        "delivered": [],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "How do I get a receipt for the tuition I just paid?",
+        "expected": "money",
+        "keyword": [
+          "money",
+          "library"
+        ],
+        "delivered": [
+          "money"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I cannot make my next installment and need budgeting help.",
+        "expected": "money",
+        "keyword": [
+          "library",
+          "money",
+          "technology"
+        ],
+        "delivered": [
+          "money"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I want official proof of all the courses I have finished.",
+        "expected": "academics",
+        "keyword": [
+          "academics",
+          "career",
+          "money"
+        ],
+        "delivered": [
+          "academics"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Can someone look over the draft of my paper?",
+        "expected": "academics",
+        "keyword": [
+          "academics"
+        ],
+        "delivered": [
+          "academics"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I am struggling with calculus and could use a tutor.",
+        "expected": "academics",
+        "keyword": [
+          "academics",
+          "career"
+        ],
+        "delivered": [
+          "academics"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Who will review my CV before the employer fair?",
+        "expected": "career",
+        "keyword": [
+          "money",
+          "academics"
+        ],
+        "delivered": [
+          "career"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I want to apply for a summer internship.",
+        "expected": "career",
+        "keyword": [
+          "career"
+        ],
+        "delivered": [
+          "career"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can I practice interviewing for a job?",
+        "expected": "career",
+        "keyword": [
+          "career"
+        ],
+        "delivered": [
+          "career"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I keep getting locked out of my NetID.",
+        "expected": "technology",
+        "keyword": [
+          "technology"
+        ],
+        "delivered": [
+          "technology"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My laptop refuses to join the campus wireless network.",
+        "expected": "technology",
+        "keyword": [
+          "campus-life",
+          "housing"
+        ],
+        "delivered": [
+          "technology"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I can\u2019t open my university email account.",
+        "expected": "technology",
+        "keyword": [
+          "technology",
+          "money",
+          "housing"
+        ],
+        "delivered": [
+          "technology"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can I arrange an appointment with a nurse?",
+        "expected": "health",
+        "keyword": [
+          "health",
+          "housing"
+        ],
+        "delivered": [
+          "health"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Can I talk to a counselor about stress?",
+        "expected": "health",
+        "keyword": [
+          "health",
+          "money",
+          "housing"
+        ],
+        "delivered": [
+          "health"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need to check my immunization record for the clinic.",
+        "expected": "health",
+        "keyword": [
+          "health",
+          "academics",
+          "international"
+        ],
+        "delivered": [
+          "health"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My disability means I need longer to finish tests.",
+        "expected": "access",
+        "keyword": [
+          "academics",
+          "access"
+        ],
+        "delivered": [
+          "access"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "How can I request captions for class?",
+        "expected": "access",
+        "keyword": [
+          "career",
+          "access"
+        ],
+        "delivered": [
+          "access"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need accessible course materials.",
+        "expected": "access",
+        "keyword": [
+          "academics",
+          "library"
+        ],
+        "delivered": [
+          "access"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My I-20 is about to expire and I need an advisor.",
+        "expected": "international",
+        "keyword": [
+          "academics",
+          "health",
+          "money"
+        ],
+        "delivered": [
+          "international"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I would like to take classes abroad for a term.",
+        "expected": "international",
+        "keyword": [
+          "academics",
+          "international"
+        ],
+        "delivered": [
+          "international"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Who answers questions about F-1 travel signatures?",
+        "expected": "international",
+        "keyword": [
+          "money",
+          "international"
+        ],
+        "delivered": [
+          "international"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need to renew a book that I borrowed.",
+        "expected": "library",
+        "keyword": [
+          "career",
+          "academics",
+          "housing"
+        ],
+        "delivered": [
+          "library"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can I use a 3D printer for my design?",
+        "expected": "library",
+        "keyword": [
+          "academics",
+          "career",
+          "library"
+        ],
+        "delivered": [
+          "library"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "How do I search for journal articles for a paper?",
+        "expected": "library",
+        "keyword": [
+          "academics"
+        ],
+        "delivered": [
+          "library",
+          "academics"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "How do I apply to live in a residence hall?",
+        "expected": "housing",
+        "keyword": [
+          "housing"
+        ],
+        "delivered": [
+          "housing"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need help with my campus apartment lease.",
+        "expected": "housing",
+        "keyword": [
+          "housing",
+          "campus-life",
+          "library"
+        ],
+        "delivered": [
+          "housing"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My roommate and I want to change rooms.",
+        "expected": "housing",
+        "keyword": [
+          "library",
+          "housing"
+        ],
+        "delivered": [
+          "housing"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "How do I challenge a parking ticket?",
+        "expected": "transport",
+        "keyword": [
+          "transport"
+        ],
+        "delivered": [
+          "transport"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Can I catch a shuttle between buildings?",
+        "expected": "transport",
+        "keyword": [
+          "transport"
+        ],
+        "delivered": [
+          "transport"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need a permit for my car.",
+        "expected": "transport",
+        "keyword": [
+          "transport"
+        ],
+        "delivered": [
+          "transport"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can I get a replacement student ID?",
+        "expected": "campus-life",
+        "keyword": [
+          "campus-life",
+          "money"
+        ],
+        "delivered": [
+          "campus-life"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I want to play intramural volleyball.",
+        "expected": "campus-life",
+        "keyword": [
+          "campus-life"
+        ],
+        "delivered": [
+          "campus-life"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can I join a student organization?",
+        "expected": "campus-life",
+        "keyword": [
+          "campus-life",
+          "academics",
+          "money"
+        ],
+        "delivered": [
+          "campus-life"
+        ],
+        "delivered_method": "model2vec"
+      }
+    ],
+    "total": 33,
+    "keyword": {
+      "top1": 19,
+      "top3": 26
+    },
+    "delivered": {
+      "top1": 32,
+      "top3": 32
+    }
+  },
+  "office-checks": {
+    "rows": [
+      {
+        "question": "A class isn't working for me. Can I leave it now and take it again in spring?",
+        "expected": "academic-advising",
+        "keyword": [],
+        "delivered": [
+          "academic-advising",
+          "registrar"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I intend to stay enrolled in chemistry, but I need help keeping up with the homework.",
+        "expected": "tutoring",
+        "keyword": [
+          "tutoring",
+          "central-library",
+          "financial-aid"
+        ],
+        "delivered": [
+          "tutoring"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My employer needs an official copy of my academic record.",
+        "expected": "registrar",
+        "keyword": [
+          "maverick-pantry",
+          "academic-advising",
+          "academic-testing"
+        ],
+        "delivered": [
+          "registrar"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I have two electives left; who can help me decide which one counts toward my major?",
+        "expected": "academic-advising",
+        "keyword": [
+          "central-library",
+          "financial-aid",
+          "it-service-desk"
+        ],
+        "delivered": [
+          "academic-advising"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I have an outline for an English paper. Who can read it and give me suggestions?",
+        "expected": "writing-center",
+        "keyword": [
+          "research-lab",
+          "writing-center"
+        ],
+        "delivered": [
+          "writing-center"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Does anyone explain differential equations one-on-one?",
+        "expected": "math-clinic",
+        "keyword": [],
+        "delivered": [
+          "math-clinic"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where do I sign up for the TSI assessment?",
+        "expected": "academic-testing",
+        "keyword": [
+          "academic-testing"
+        ],
+        "delivered": [
+          "academic-testing"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My tuition payment went through twice. Who can check my statement?",
+        "expected": "student-accounts",
+        "keyword": [
+          "math-clinic",
+          "student-accounts",
+          "veterans"
+        ],
+        "delivered": [
+          "student-accounts"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I was awarded a Pell Grant but the money hasn't appeared.",
+        "expected": "financial-aid",
+        "keyword": [
+          "financial-aid",
+          "mav-card",
+          "money-management"
+        ],
+        "delivered": [
+          "financial-aid"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Rent and groceries keep eating my paycheck. I'd like someone to help me make a monthly budget.",
+        "expected": "money-management",
+        "keyword": [
+          "maverick-pantry",
+          "central-library",
+          "financial-aid"
+        ],
+        "delivered": [
+          "money-management",
+          "maverick-pantry"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Who certifies my classes so the VA pays my education benefits?",
+        "expected": "veterans",
+        "keyword": [
+          "veterans",
+          "academic-advising",
+          "international-education"
+        ],
+        "delivered": [
+          "veterans"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need someone to look at my resume before I meet recruiters.",
+        "expected": "career-center",
+        "keyword": [
+          "career-center",
+          "money-management",
+          "tutoring"
+        ],
+        "delivered": [
+          "career-center"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "An employer wants a video call and my dorm is noisy. Is there an interview space I can reserve?",
+        "expected": "interview-room",
+        "keyword": [
+          "interview-room",
+          "career-center",
+          "central-library"
+        ],
+        "delivered": [
+          "interview-room"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My university account won't accept my password anymore.",
+        "expected": "it-service-desk",
+        "keyword": [
+          "it-service-desk",
+          "student-accounts",
+          "housing-office"
+        ],
+        "delivered": [
+          "it-service-desk",
+          "student-accounts"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Who can give me a copy of my vaccination history?",
+        "expected": "health-services",
+        "keyword": [],
+        "delivered": [
+          "health-services"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I've been anxious for weeks and want an appointment with a counselor.",
+        "expected": "counseling",
+        "keyword": [
+          "counseling",
+          "health-services",
+          "maverick-pantry"
+        ],
+        "delivered": [
+          "counseling"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I qualify for extended exam time. Who arranges that with my instructors?",
+        "expected": "student-access",
+        "keyword": [
+          "academic-testing",
+          "career-center",
+          "math-clinic"
+        ],
+        "delivered": [
+          "student-access",
+          "tutoring"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019m on an F-1 visa and might enroll below full time. Who can tell me what that means for my status?",
+        "expected": "international-education",
+        "keyword": [
+          "international-education",
+          "academic-advising",
+          "career-center"
+        ],
+        "delivered": [
+          "international-education"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Can I earn credits at another university in Europe for a term?",
+        "expected": "study-abroad",
+        "keyword": [
+          "housing-office",
+          "it-service-desk",
+          "student-accounts"
+        ],
+        "delivered": [
+          "study-abroad"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019d like to meet international classmates through a cultural event.",
+        "expected": "global-engagement",
+        "keyword": [
+          "global-engagement",
+          "international-education",
+          "interview-room"
+        ],
+        "delivered": [
+          "global-engagement"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My library book is due tomorrow. Can I keep it another week?",
+        "expected": "central-library",
+        "keyword": [
+          "central-library",
+          "maverick-pantry"
+        ],
+        "delivered": [
+          "central-library"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need a laser cutter for a design project.",
+        "expected": "fablab",
+        "keyword": [
+          "fablab",
+          "the-studios"
+        ],
+        "delivered": [
+          "fablab"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My research dataset is ready; can someone help me run the statistics?",
+        "expected": "research-lab",
+        "keyword": [
+          "research-lab",
+          "central-library",
+          "financial-aid"
+        ],
+        "delivered": [
+          "research-lab"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "We have a student podcast and need somewhere quiet with microphones.",
+        "expected": "the-studios",
+        "keyword": [
+          "academic-advising",
+          "financial-aid",
+          "health-services"
+        ],
+        "delivered": [
+          "the-studios"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I want to switch to a different on-campus apartment.",
+        "expected": "housing-office",
+        "keyword": [
+          "housing-office",
+          "campus-rec",
+          "financial-aid"
+        ],
+        "delivered": [
+          "housing-office"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019m short on groceries and can\u2019t buy much food this week.",
+        "expected": "maverick-pantry",
+        "keyword": [
+          "maverick-pantry",
+          "health-services"
+        ],
+        "delivered": [
+          "maverick-pantry"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I was fined for leaving my car in the wrong lot. Where can I appeal?",
+        "expected": "parking",
+        "keyword": [
+          "parking"
+        ],
+        "delivered": [
+          "parking"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My next lecture is across campus. Where does the shuttle pick people up?",
+        "expected": "mavmover",
+        "keyword": [
+          "mavmover",
+          "campus-rec",
+          "housing-office"
+        ],
+        "delivered": [
+          "mavmover"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My student identification card snapped. Where can I get another?",
+        "expected": "mav-card",
+        "keyword": [
+          "mav-card",
+          "financial-aid",
+          "registrar"
+        ],
+        "delivered": [
+          "mav-card"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Where can a few classmates sign up for an intramural basketball team?",
+        "expected": "campus-rec",
+        "keyword": [
+          "campus-rec"
+        ],
+        "delivered": [
+          "campus-rec"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I want to find a student club for my interests.",
+        "expected": "organizations",
+        "keyword": [
+          "academic-advising",
+          "health-services",
+          "international-education"
+        ],
+        "delivered": [
+          "organizations"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "If I reduce my credit hours, could that change the federal grant I receive?",
+        "expected": "financial-aid",
+        "keyword": [
+          "career-center",
+          "central-library",
+          "international-education"
+        ],
+        "delivered": [
+          "financial-aid",
+          "academic-advising"
+        ],
+        "delivered_method": "model2vec"
+      }
+    ],
+    "total": 32,
+    "keyword": {
+      "top1": 19,
+      "top3": 21
+    },
+    "delivered": {
+      "top1": 32,
+      "top3": 32
+    }
+  },
+  "paraphrase-checks": {
+    "rows": [
+      {
+        "question": "I have a conversation with a recruiter on camera and nowhere private to sit.",
+        "expected": "interview-room",
+        "keyword": [
+          "interview-room",
+          "the-studios"
+        ],
+        "delivered": [
+          "interview-room"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019m out of things to eat before payday. Is there somewhere to pick up supplies?",
+        "expected": "maverick-pantry",
+        "keyword": [
+          "maverick-pantry",
+          "tutoring"
+        ],
+        "delivered": [
+          "maverick-pantry"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Someone found my wallet but the plastic badge that gets me into campus buildings is gone.",
+        "expected": "mav-card",
+        "keyword": [
+          "campus-rec",
+          "career-center",
+          "housing-office"
+        ],
+        "delivered": [],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My professor wants us to create an audio show. Where can we use sound equipment?",
+        "expected": "the-studios",
+        "keyword": [
+          "the-studios",
+          "academic-advising",
+          "career-center"
+        ],
+        "delivered": [
+          "the-studios"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need to get in shape. Is there somewhere on campus to lift weights?",
+        "expected": "campus-rec",
+        "keyword": [
+          "mav-card",
+          "campus-rec",
+          "fablab"
+        ],
+        "delivered": [],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Can a person check my job application letter before I send it to the company?",
+        "expected": "career-center",
+        "keyword": [
+          "tutoring",
+          "career-center",
+          "counseling"
+        ],
+        "delivered": [
+          "career-center"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I got a fine for where I left my vehicle.",
+        "expected": "parking",
+        "keyword": [],
+        "delivered": [
+          "parking"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019m uncomfortable sharing a residence hall room with my current roommate; whom do I contact?",
+        "expected": "housing-office",
+        "keyword": [
+          "housing-office",
+          "academic-advising",
+          "financial-aid"
+        ],
+        "delivered": [
+          "housing-office"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need a clinician to review my vaccine history.",
+        "expected": "health-services",
+        "keyword": [
+          "money-management",
+          "student-accounts"
+        ],
+        "delivered": [
+          "health-services"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I would like somebody to read the first version of my English composition.",
+        "expected": "writing-center",
+        "keyword": [
+          "research-lab"
+        ],
+        "delivered": [],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I think an overseas exchange would be fun; whom can I ask about earning credit?",
+        "expected": "study-abroad",
+        "keyword": [
+          "counseling",
+          "housing-office",
+          "mav-card"
+        ],
+        "delivered": [
+          "study-abroad"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "My research findings are in a spreadsheet. I need a hand interpreting the figures.",
+        "expected": "research-lab",
+        "keyword": [
+          "central-library",
+          "research-lab",
+          "writing-center"
+        ],
+        "delivered": [
+          "research-lab"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "Is there an earlier shuttle from my building to my morning lecture?",
+        "expected": "mavmover",
+        "keyword": [
+          "mavmover"
+        ],
+        "delivered": [
+          "mavmover"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I need to postpone one of my modules until a future term.",
+        "expected": "academic-advising",
+        "keyword": [],
+        "delivered": [
+          "academic-advising",
+          "registrar"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "I\u2019d like to meet a therapist to talk about stress from school.",
+        "expected": "counseling",
+        "keyword": [
+          "counseling",
+          "money-management",
+          "financial-aid"
+        ],
+        "delivered": [
+          "counseling"
+        ],
+        "delivered_method": "model2vec"
+      },
+      {
+        "question": "The Wi-Fi keeps disconnecting my tablet during class.",
+        "expected": "it-service-desk",
+        "keyword": [
+          "it-service-desk"
+        ],
+        "delivered": [
+          "it-service-desk"
+        ],
+        "delivered_method": "model2vec"
+      }
+    ],
+    "total": 16,
+    "keyword": {
+      "top1": 7,
+      "top3": 10
+    },
+    "delivered": {
+      "top1": 13,
+      "top3": 13
+    }
+  }
+}

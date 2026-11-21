@@ -1,0 +1,8 @@
+{
+  "catalog_size": 40,
+  "clients": 20,
+  "requests_per_client": 10,
+  "limit_ms": 2000,
+  "required_fraction": 0.95,
+  "queries": ["3D printer", "lost student ID", "academic advising", "financial aid", "library book", "parking permit", "transcript", "campus housing", "career fair", "writing help"]
+}

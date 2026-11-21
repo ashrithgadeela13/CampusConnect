@@ -1,0 +1,130 @@
+[
+  [
+    "A class isn't working for me. Can I leave it now and take it again in spring?",
+    "academic-advising"
+  ],
+  [
+    "I intend to stay enrolled in chemistry, but I need help keeping up with the homework.",
+    "tutoring"
+  ],
+  [
+    "My employer needs an official copy of my academic record.",
+    "registrar"
+  ],
+  [
+    "I have two electives left; who can help me decide which one counts toward my major?",
+    "academic-advising"
+  ],
+  [
+    "I have an outline for an English paper. Who can read it and give me suggestions?",
+    "writing-center"
+  ],
+  [
+    "Does anyone explain differential equations one-on-one?",
+    "math-clinic"
+  ],
+  [
+    "Where do I sign up for the TSI assessment?",
+    "academic-testing"
+  ],
+  [
+    "My tuition payment went through twice. Who can check my statement?",
+    "student-accounts"
+  ],
+  [
+    "I was awarded a Pell Grant but the money hasn't appeared.",
+    "financial-aid"
+  ],
+  [
+    "Rent and groceries keep eating my paycheck. I'd like someone to help me make a monthly budget.",
+    "money-management"
+  ],
+  [
+    "Who certifies my classes so the VA pays my education benefits?",
+    "veterans"
+  ],
+  [
+    "I need someone to look at my resume before I meet recruiters.",
+    "career-center"
+  ],
+  [
+    "An employer wants a video call and my dorm is noisy. Is there an interview space I can reserve?",
+    "interview-room"
+  ],
+  [
+    "My university account won't accept my password anymore.",
+    "it-service-desk"
+  ],
+  [
+    "Who can give me a copy of my vaccination history?",
+    "health-services"
+  ],
+  [
+    "I've been anxious for weeks and want an appointment with a counselor.",
+    "counseling"
+  ],
+  [
+    "I qualify for extended exam time. Who arranges that with my instructors?",
+    "student-access"
+  ],
+  [
+    "I’m on an F-1 visa and might enroll below full time. Who can tell me what that means for my status?",
+    "international-education"
+  ],
+  [
+    "Can I earn credits at another university in Europe for a term?",
+    "study-abroad"
+  ],
+  [
+    "I’d like to meet international classmates through a cultural event.",
+    "global-engagement"
+  ],
+  [
+    "My library book is due tomorrow. Can I keep it another week?",
+    "central-library"
+  ],
+  [
+    "I need a laser cutter for a design project.",
+    "fablab"
+  ],
+  [
+    "My research dataset is ready; can someone help me run the statistics?",
+    "research-lab"
+  ],
+  [
+    "We have a student podcast and need somewhere quiet with microphones.",
+    "the-studios"
+  ],
+  [
+    "I want to switch to a different on-campus apartment.",
+    "housing-office"
+  ],
+  [
+    "I’m short on groceries and can’t buy much food this week.",
+    "maverick-pantry"
+  ],
+  [
+    "I was fined for leaving my car in the wrong lot. Where can I appeal?",
+    "parking"
+  ],
+  [
+    "My next lecture is across campus. Where does the shuttle pick people up?",
+    "mavmover"
+  ],
+  [
+    "My student identification card snapped. Where can I get another?",
+    "mav-card"
+  ],
+  [
+    "Where can a few classmates sign up for an intramural basketball team?",
+    "campus-rec"
+  ],
+  [
+    "I want to find a student club for my interests.",
+    "organizations"
+  ],
+  [
+    "If I reduce my credit hours, could that change the federal grant I receive?",
+    "financial-aid"
+  ]
+]

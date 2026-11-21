@@ -1,0 +1,11 @@
+{
+  "draft": {"question":"I lost my student ID.", "term_pattern":"student ID|Mav Card|replacement|replace|new card"},
+  "extra": [
+    {"question":"My student ID went missing. Who issues a replacement?", "office":"mav-card"},
+    {"question":"I need a second pair of eyes on the thesis statement in my essay.", "office":"writing-center"},
+    {"question":"I want to make a plastic prototype with a 3D printer.", "office":"fablab"},
+    {"question":"Where do I return a book I checked out on campus?", "office":"central-library"},
+    {"question":"My account", "state":"clarify"},
+    {"question":"How do I repair a bicycle tire?", "state":"none"}
+  ]
+}

@@ -1,0 +1,10 @@
+Wed Nov 18 03:29:03 CST 2026
+Python 3.13.7
+test_E2E_01_guest_feedback_and_admin_review (__main__.BrowserTests.test_E2E_01_guest_feedback_and_admin_review) ... ok
+test_E2E_02_mobile_unmatched_question (__main__.BrowserTests.test_E2E_02_mobile_unmatched_question) ... ok
+test_E2E_03_simulated_voice_transcript (__main__.BrowserTests.test_E2E_03_simulated_voice_transcript) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.489s
+
+OK

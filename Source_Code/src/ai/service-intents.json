@@ -1,0 +1,430 @@
+{
+  "academic-advising": [
+    {
+      "key": "course-change",
+      "label": "Dropping, withdrawing from, or retaking a class",
+      "phrases": [
+        "I’m considering leaving one of my classes and taking it in a later term.",
+        "Talk with my advisor about removing a course from my schedule.",
+        "I need to withdraw from a subject or repeat it next year.",
+        "How will dropping one class affect my degree plan?",
+        "Postpone a module, defer a subject, or take a class in a future semester."
+      ],
+      "detail": "Talk with your academic advisor about dropping the class and when it would fit your degree plan again. The Registrar explains the procedure for your point in the semester.",
+      "related": [
+        "registrar"
+      ],
+      "source": {
+        "label": "UTA add, drop and withdrawal procedures",
+        "url": "https://www.uta.edu/administration/registrar/students/registration/courses/add-drop-withdrawal"
+      },
+      "draft": "advising-drop"
+    },
+    {
+      "key": "course-plan",
+      "label": "Choosing classes and planning a degree",
+      "phrases": [
+        "Which subjects should I enroll in to stay on track to graduate?",
+        "Help with selecting classes, changing majors, prerequisites or planning my next term.",
+        "Meet my departmental advisor about a degree audit and required credits."
+      ],
+      "draft": "course-plan"
+    }
+  ],
+  "registrar": [
+    {
+      "key": "registration",
+      "label": "Registration, adds, swaps and enrollment records",
+      "phrases": [
+        "MyMav will not let me register for a section or add myself to a waitlist.",
+        "Where are the add/drop instructions, enrollment forms and withdrawal deadlines?",
+        "Who can verify enrollment, fix a registration error or update my student record?",
+        "A registration hold blocks enrollment. Where can I find out who placed it?"
+      ],
+      "draft": "registration"
+    },
+    {
+      "key": "transcripts",
+      "label": "Transcripts and degree verification",
+      "phrases": [
+        "Order a certified copy of my grades for another university.",
+        "Send an official transcript, enrollment verification or diploma to an employer."
+      ],
+      "draft": "records"
+    }
+  ],
+  "tutoring": [
+    {
+      "key": "tutoring",
+      "label": "Tutoring and study support",
+      "phrases": [
+        "A difficult class is overwhelming; I need someone to teach me the material.",
+        "I need a tutor, supplemental instruction or help studying for a course exam.",
+        "I am falling behind on homework; are there peer study sessions?",
+        "Find a study group to prepare for finals and understand difficult lessons."
+      ],
+      "draft": "tutoring"
+    }
+  ],
+  "math-clinic": [
+    {
+      "key": "math",
+      "label": "Help with a math problem",
+      "phrases": [
+        "I cannot solve a derivative, integral, calculus question or a system of equations.",
+        "Find a math tutor to explain linear algebra and practice problems."
+      ],
+      "draft": "math"
+    }
+  ],
+  "writing-center": [
+    {
+      "key": "writing",
+      "label": "Feedback on a paper or writing assignment",
+      "phrases": [
+        "Can someone read my essay and suggest improvements to my arguments?",
+        "I want writing help with a citation, thesis statement, or revising my draft."
+      ],
+      "draft": "writing"
+    }
+  ],
+  "academic-testing": [
+    {
+      "key": "testing",
+      "label": "Placement tests and proctored exams",
+      "phrases": [
+        "Book an exam proctor or TSI placement test appointment.",
+        "Where can I take a departmental placement examination using RegisterBlast?"
+      ],
+      "draft": "testing"
+    }
+  ],
+  "financial-aid": [
+    {
+      "key": "aid-payment",
+      "label": "A missing grant or financial aid payment",
+      "phrases": [
+        "My scholarship or loan disbursement has not arrived.",
+        "An award or grant is missing from my aid package.",
+        "Check the release status of my FAFSA funds.",
+        "My expected financial aid has not come through."
+      ],
+      "draft": "aid-payment"
+    },
+    {
+      "key": "aid-application",
+      "label": "Applying for financial aid",
+      "phrases": [
+        "Where can I fill out the FAFSA or apply for federal grants and loans?",
+        "Help applying for aid and understanding my award letter."
+      ],
+      "draft": "aid-application"
+    },
+    {
+      "key": "aid-load",
+      "label": "Effect of enrollment changes on financial aid",
+      "phrases": [
+        "Will reducing my credit hours change my financial aid eligibility?",
+        "Would withdrawing from a class affect my scholarship, federal grant, or loans?"
+      ],
+      "detail": "Ask Financial Aid how an enrollment change could affect your award. Your academic advisor can help with the course change itself.",
+      "related": [
+        "academic-advising"
+      ],
+      "draft": "aid-load"
+    }
+  ],
+  "student-accounts": [
+    {
+      "key": "billing",
+      "label": "Tuition bills, payments and refunds",
+      "phrases": [
+        "My tuition invoice shows the wrong balance; I need a payment plan or receipt.",
+        "I was charged twice or need a tuition refund after canceling a class.",
+        "There is a financial hold on my student account."
+      ],
+      "draft": "student-bill"
+    }
+  ],
+  "money-management": [
+    {
+      "key": "budget",
+      "label": "Personal budgeting and money coaching",
+      "phrases": [
+        "Help me plan everyday spending and save money between paychecks.",
+        "I would like a financial coach to help build a budget and manage personal debt."
+      ],
+      "draft": "budget"
+    }
+  ],
+  "veterans": [
+    {
+      "key": "military",
+      "label": "Military education benefits",
+      "phrases": [
+        "Use GI Bill benefits or request VA enrollment certification.",
+        "Check the Texas Hazlewood tuition exemption for military families."
+      ],
+      "draft": "veteran"
+    }
+  ],
+  "career-center": [
+    {
+      "key": "career",
+      "label": "Internships, interviews and career advice",
+      "phrases": [
+        "Help me search for summer internships, part-time work or a first job.",
+        "I want to rehearse interview answers or get ready for a career fair."
+      ],
+      "draft": "career"
+    },
+    {
+      "key": "resume",
+      "label": "Résumé and cover letter reviews",
+      "phrases": [
+        "Have someone critique my CV before applying for jobs.",
+        "Can a career coach review my résumé or cover letter?"
+      ],
+      "draft": "career-resume"
+    }
+  ],
+  "interview-room": [
+    {
+      "key": "interview-room",
+      "label": "A room for a remote job interview",
+      "phrases": [
+        "Reserve a private quiet place for a Zoom interview with an employer.",
+        "Book an interview room for a hiring call; I already have the interview."
+      ],
+      "draft": "interview"
+    }
+  ],
+  "it-service-desk": [
+    {
+      "key": "login",
+      "label": "Account and sign-in issues",
+      "phrases": [
+        "Recover a forgotten password or unlock my NetID.",
+        "I cannot sign into university email or get past multifactor authentication."
+      ],
+      "draft": "it-login"
+    },
+    {
+      "key": "wifi",
+      "label": "Wi-Fi and device support",
+      "phrases": [
+        "Connect my computer to the university wireless network.",
+        "My laptop will not connect to eduroam or the internet on campus."
+      ],
+      "draft": "it-wifi"
+    }
+  ],
+  "health-services": [
+    {
+      "key": "clinic",
+      "label": "Clinic appointments and immunization records",
+      "phrases": [
+        "See a nurse or doctor, book a medical appointment or ask about vaccines.",
+        "I need a vaccination record or campus clinic visit."
+      ],
+      "draft": "health"
+    }
+  ],
+  "counseling": [
+    {
+      "key": "counseling",
+      "label": "Counseling appointments and emotional support",
+      "phrases": [
+        "I feel anxious and would like to speak privately with a therapist.",
+        "Can I meet a counselor about stress, loneliness or my mental health?"
+      ],
+      "draft": "counseling"
+    }
+  ],
+  "student-access": [
+    {
+      "key": "access",
+      "label": "Disability accommodations and accessible materials",
+      "phrases": [
+        "Arrange extra exam time, captions or accessible course materials because of a disability.",
+        "I need an accommodation letter, assistive technology or an interpreter."
+      ],
+      "draft": "access"
+    }
+  ],
+  "international-education": [
+    {
+      "key": "immigration",
+      "label": "International enrollment, status and travel documents",
+      "phrases": [
+        "I need a travel signature on my I-20 or advice about F-1 status.",
+        "Can I reduce my course load and stay in status on my student visa?",
+        "Ask about CPT or OPT work authorization and immigration paperwork."
+      ],
+      "draft": "international"
+    }
+  ],
+  "study-abroad": [
+    {
+      "key": "abroad",
+      "label": "Taking courses in another country",
+      "phrases": [
+        "I want to spend a semester overseas or study at a partner university abroad.",
+        "Look for exchange programs and international study opportunities.",
+        "Earn academic credit at an overseas university in Europe, Asia or Latin America."
+      ],
+      "draft": "abroad"
+    }
+  ],
+  "global-engagement": [
+    {
+      "key": "culture",
+      "label": "Meeting students through cultural events",
+      "phrases": [
+        "Where can I make international friends and join a cultural meetup?",
+        "Find Global Grounds and cross-cultural social events."
+      ],
+      "draft": "global"
+    }
+  ],
+  "central-library": [
+    {
+      "key": "library-loan",
+      "label": "Borrowing, renewals and journal articles",
+      "phrases": [
+        "Find scholarly articles or ask a librarian to locate a book.",
+        "Extend a library book loan, check out a title or use a research database.",
+        "Return textbooks and borrowed books at the library circulation desk or book drop."
+      ],
+      "draft": "library-loan"
+    },
+    {
+      "key": "library-space",
+      "label": "Library study spaces",
+      "phrases": [
+        "Reserve a quiet room for our study group at the library.",
+        "Where can my classmates and I study together in a bookable space?"
+      ],
+      "draft": "library-space"
+    }
+  ],
+  "research-lab": [
+    {
+      "key": "research",
+      "label": "Research data and statistics consulting",
+      "phrases": [
+        "I need help analyzing a dataset with R, SPSS or statistical software.",
+        "Get a consultation for a GIS map or data visualization for my research."
+      ],
+      "draft": "research"
+    }
+  ],
+  "the-studios": [
+    {
+      "key": "media",
+      "label": "Audio and video production",
+      "phrases": [
+        "Where can I record a podcast with a microphone?",
+        "Book a studio to edit a video or create a multimedia project."
+      ],
+      "draft": "media"
+    }
+  ],
+  "fablab": [
+    {
+      "key": "fabrication",
+      "label": "Fabrication and 3D printing",
+      "phrases": [
+        "Use a 3D printer or a laser cutter to build a prototype.",
+        "I need a campus makerspace with tools for sewing or digital fabrication."
+      ],
+      "draft": "fablab"
+    }
+  ],
+  "housing-office": [
+    {
+      "key": "housing",
+      "label": "Dorms, apartments and housing contracts",
+      "phrases": [
+        "Get help with my roommate, residence hall or apartment lease.",
+        "I want to move into campus housing or switch dorm rooms."
+      ],
+      "draft": "housing"
+    }
+  ],
+  "maverick-pantry": [
+    {
+      "key": "food",
+      "label": "Groceries and basic supplies",
+      "phrases": [
+        "I have no money for meals; is there somewhere to pick up free food?",
+        "Find groceries, hygiene items, toiletries or school supplies when money is tight."
+      ],
+      "draft": "pantry"
+    }
+  ],
+  "parking": [
+    {
+      "key": "parking",
+      "label": "Parking tickets and citations",
+      "phrases": [
+        "I parked in the wrong lot and want to dispute a fine.",
+        "I got a parking ticket in a campus lot; who handles citations?"
+      ],
+      "draft": "parking-ticket"
+    },
+    {
+      "key": "permit",
+      "label": "Parking permits and campus lots",
+      "phrases": [
+        "Where can I buy a permit for my car?",
+        "Find legal parking spaces, a garage map or a student parking pass."
+      ],
+      "draft": "parking-permit"
+    }
+  ],
+  "mavmover": [
+    {
+      "key": "shuttle",
+      "label": "Shuttle routes and bus stops",
+      "phrases": [
+        "Find my next campus shuttle pickup or check a bus route.",
+        "I need a ride between buildings and want the nearest bus stop."
+      ],
+      "draft": "shuttle"
+    }
+  ],
+  "mav-card": [
+    {
+      "key": "student-id",
+      "label": "Lost or replacement student ID",
+      "phrases": [
+        "Get a new photo ID after losing my student card.",
+        "Replace a damaged Mav Card or ask about Mav Money."
+      ],
+      "draft": "mav-id"
+    }
+  ],
+  "campus-rec": [
+    {
+      "key": "sports",
+      "label": "Fitness and recreational sports",
+      "phrases": [
+        "Use a workout facility, basketball court or weight room.",
+        "How can I sign up to play an intramural sport at the gym?"
+      ],
+      "draft": "sports"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "clubs",
+      "label": "Student clubs and organizations",
+      "phrases": [
+        "Join a club, student society or campus organization.",
+        "Find student groups and their meetings through MavEngage."
+      ],
+      "draft": "club"
+    }
+  ]
+}

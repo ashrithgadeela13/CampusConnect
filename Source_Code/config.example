@@ -1,0 +1,3 @@
+# Optional environment variables read by CampusConnect.
+# CAMPUSCONNECT_DATA_DIR=/absolute/path/to/data
+# CAMPUSCONNECT_ORIGIN=https://your-campusconnect-host.example

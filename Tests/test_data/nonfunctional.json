@@ -1,0 +1,15 @@
+{
+  "requests": 100,
+  "concurrency": 10,
+  "paths": ["/api/health", "/api/bootstrap"],
+  "max_p95_ms": 500,
+  "security_headers": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "dashboard": "/api/admin/unanswered",
+  "expected_dashboard_status": {"guest": 401, "student": 403, "admin": 200},
+  "question": "I lost my student ID.",
+  "reason": "Wrong office"
+}

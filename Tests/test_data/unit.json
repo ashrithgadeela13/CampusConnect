@@ -1,0 +1,17 @@
+[
+ {"id":"UNIT-01","operation":"text","input":[{"question":"  Mav Card  "},"question",3,500],"expected":"Mav Card"},
+ {"id":"UNIT-02","operation":"text","input":[{"question":"  ID  "},"question",3,500],"status":422},
+ {"id":"UNIT-03","operation":"text","input":[{"question":123},"question",3,500],"status":422},
+ {"id":"UNIT-04","operation":"text","input":[{"question":"ID?"},"question",3,500],"expected":"ID?"},
+ {"id":"UNIT-05","operation":"text","input":[{"question":"x"},"question",3,500],"repeat":500,"expected_length":500},
+ {"id":"UNIT-06","operation":"text","input":[{"question":"x"},"question",3,500],"repeat":501,"status":422},
+ {"id":"UNIT-07","operation":"only","input":[{"receipt":"example","solved":false},["receipt","solved","reason"]],"expected":null},
+ {"id":"UNIT-08","operation":"only","input":[{"solved":false,"extra":true},["receipt","solved","reason"]],"status":422},
+ {"id":"UNIT-09","operation":"day_string","input":["2024-02-29"],"expected":"2024-02-29"},
+ {"id":"UNIT-10","operation":"day_string","input":["2025-02-29"],"status":422},
+ {"id":"UNIT-11","operation":"validate_password","input":["ExamplePass!"],"expected":null},
+ {"id":"UNIT-12","operation":"validate_password","input":["ShortPass!"],"status":422},
+ {"id":"UNIT-13","operation":"require","input":[null,true],"status":401},
+ {"id":"UNIT-14","operation":"require","input":[{"effectiveRole":"student"},true],"status":403},
+ {"id":"UNIT-15","operation":"require","input":[{"effectiveRole":"admin"},true],"expected":{"effectiveRole":"admin"}}
+]

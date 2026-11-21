@@ -1,0 +1,1 @@
+export type Personal={saved:string[];recent:string[]};export type Notice={id:string;title:string;body:string;category_id:string|null;category_name:string|null;status:"draft"|"published"|"archived";expires_on:string;version:number;updated_at:string};

@@ -1,0 +1,1820 @@
+{
+  "case": "NFR-01",
+  "time": "2026-11-18T18:01:29.294681-06:00",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "path": "/api/search",
+  "clients": 20,
+  "catalog_size": 40,
+  "original_services": 30,
+  "synthetic_services": 10,
+  "total": 200,
+  "successful": 200,
+  "within_target": 200,
+  "target_ms": 2000,
+  "required_fraction": 0.95,
+  "p95_ms": 508.39,
+  "max_ms": 580.48,
+  "status": "Pass",
+  "requests": [
+    {
+      "client": 1,
+      "request": 1,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 544.9508499998501,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 2,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 338.4238660000847,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 3,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 235.5938180000976,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 4,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 269.8235039999872,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 5,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 253.3836570000858,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 6,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 217.8664820000904,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 7,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 244.81097300008514,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 8,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 235.56364400019447,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 9,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 310.80610699996214,
+      "error": null
+    },
+    {
+      "client": 1,
+      "request": 10,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 287.36708899987207,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 1,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 488.0208429999584,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 2,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 337.33317899987014,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 3,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 298.2845389999511,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 4,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 229.42470399993908,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 5,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 255.9812399999828,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 6,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.26120099988293,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 7,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 296.93289700003334,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 8,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.9745959999309,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 9,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 237.1171830000094,
+      "error": null
+    },
+    {
+      "client": 2,
+      "request": 10,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.829120999977,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 1,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 536.9468979999965,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 2,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 303.75901699994756,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 3,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 306.18766699990374,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 4,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 298.94784399994023,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 5,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 235.9174030000304,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 6,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 133.77519599998777,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 7,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 291.9040550000318,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 8,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 244.03854199999842,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 9,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 311.6692010000861,
+      "error": null
+    },
+    {
+      "client": 3,
+      "request": 10,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 249.57755500008716,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 1,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 508.38702800001556,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 2,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 209.2812819998926,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 3,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 293.006018999904,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 4,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 205.95137100008287,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 5,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 274.22441800013075,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 6,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 209.15230699984022,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 7,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 281.28749200004677,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 8,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 249.24033399997825,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 9,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 284.6157490000678,
+      "error": null
+    },
+    {
+      "client": 4,
+      "request": 10,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 265.8712029999606,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 1,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 540.559809999877,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 2,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 277.1351420001338,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 3,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 216.5123219999714,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 4,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 295.7574100000784,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 5,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 187.89972900003704,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 6,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 287.12321599982715,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 7,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 300.0209970000469,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 8,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 212.39369699992494,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 9,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 278.07165900003383,
+      "error": null
+    },
+    {
+      "client": 5,
+      "request": 10,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 214.37325200008672,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 1,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 483.7137449999318,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 2,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 252.03261000001476,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 3,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 215.3765119999207,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 4,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 230.72607200015227,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 5,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 189.63402899998982,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 6,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 283.8603889999831,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 7,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 241.56761499989443,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 8,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 245.86753599987787,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 9,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 208.1526979998216,
+      "error": null
+    },
+    {
+      "client": 6,
+      "request": 10,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 247.79084400006468,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 1,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 558.7619890000042,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 2,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 234.04045500001303,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 3,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 195.01350099994852,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 4,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 257.39370699989195,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 5,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 208.98650300000554,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 6,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 284.50927800008685,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 7,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 203.02007800000865,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 8,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 292.7767669998502,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 9,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 311.5696840000055,
+      "error": null
+    },
+    {
+      "client": 7,
+      "request": 10,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 288.67703900004926,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 1,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 580.4848530001436,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 2,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 309.91673400012587,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 3,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 293.92243600000256,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 4,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 239.15891499996178,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 5,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 252.64428399987082,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 6,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 268.214437999859,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 7,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 280.9060560000489,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 8,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.34692199988785,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 9,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 261.4547709999897,
+      "error": null
+    },
+    {
+      "client": 8,
+      "request": 10,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 265.609743999903,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 1,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 489.3100819999745,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 2,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 331.03506099996594,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 3,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 301.9056680000176,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 4,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 191.9080909999593,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 5,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 203.1214710000313,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 6,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 232.0574600000782,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 7,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 281.9344469999123,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 8,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 74.25732399997287,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 9,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 292.32641399994463,
+      "error": null
+    },
+    {
+      "client": 9,
+      "request": 10,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 187.45660700005828,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 1,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 507.71354300013627,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 2,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 317.47578599993176,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 3,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 301.9904210000277,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 4,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 296.1463060000824,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 5,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 238.58089400005156,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 6,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.97849600006884,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 7,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 236.0073160000411,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 8,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 290.33997999999883,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 9,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 279.03851099995336,
+      "error": null
+    },
+    {
+      "client": 10,
+      "request": 10,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 285.9722690000126,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 1,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 500.9323439999207,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 2,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 301.710680000042,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 3,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 301.77752400004465,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 4,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 268.09080100019855,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 5,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 277.3818299999675,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 6,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 262.4783700000535,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 7,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 190.4463629998645,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 8,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 259.16309599983833,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 9,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 261.3880940000399,
+      "error": null
+    },
+    {
+      "client": 11,
+      "request": 10,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 293.81169800012685,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 1,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 547.9452770000535,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 2,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 318.2218190002004,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 3,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 245.60559700012163,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 4,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 236.80607500000406,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 5,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 274.82554799985337,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 6,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 263.6710399999629,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 7,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 231.4627250000285,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 8,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 247.50290499991934,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 9,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 274.0010950001306,
+      "error": null
+    },
+    {
+      "client": 12,
+      "request": 10,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 217.96199300001717,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 1,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 493.7729240000408,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 2,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 242.24669399995946,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 3,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 284.74273200004063,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 4,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 272.1483469999839,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 5,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 208.40087200008384,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 6,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 186.15332700005638,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 7,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 204.3693609998627,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 8,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 295.6476379999913,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 9,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 211.89584000012474,
+      "error": null
+    },
+    {
+      "client": 13,
+      "request": 10,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 194.42568700014817,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 1,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 552.2861479998937,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 2,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 333.65988900004595,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 3,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 278.74797300000864,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 4,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 277.5278310000431,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 5,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 235.18282800000634,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 6,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 292.67092100008085,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 7,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 239.3245980001666,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 8,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 286.68903299990234,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 9,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 283.6448629998358,
+      "error": null
+    },
+    {
+      "client": 14,
+      "request": 10,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 242.8906200000256,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 1,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 487.2545200000786,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 2,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 266.3272849999885,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 3,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 256.58025999996426,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 4,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 204.4689560000279,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 5,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 224.67671899994457,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 6,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 239.88973800010172,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 7,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 263.7231049998263,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 8,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 296.0298939999575,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 9,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 284.3557470000633,
+      "error": null
+    },
+    {
+      "client": 15,
+      "request": 10,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 215.96546800014949,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 1,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 548.8306019999527,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 2,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 227.43747800018355,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 3,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 177.2711739999977,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 4,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 279.3424529997992,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 5,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 195.75678999990487,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 6,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 219.19899099998474,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 7,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 285.75226099997053,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 8,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 265.7705500000702,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 9,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 298.84897400006594,
+      "error": null
+    },
+    {
+      "client": 16,
+      "request": 10,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 292.7642689999175,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 1,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 486.29087399990567,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 2,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 309.1132330000619,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 3,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 225.66365499983476,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 4,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 298.88689399990653,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 5,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 282.7362670000184,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 6,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 261.7695789999743,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 7,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 253.91811600002256,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 8,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 297.82467700010784,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 9,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 247.80041799999708,
+      "error": null
+    },
+    {
+      "client": 17,
+      "request": 10,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 283.29908900013834,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 1,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 537.4295429999165,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 2,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 309.80388799980574,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 3,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 302.1866510000564,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 4,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 228.5492380001415,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 5,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 280.40379300000495,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 6,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 293.5011519998625,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 7,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 246.94438500000615,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 8,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 266.19974599998386,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 9,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 261.91577500003405,
+      "error": null
+    },
+    {
+      "client": 18,
+      "request": 10,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 241.42768900014744,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 1,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 487.8059210000174,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 2,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 237.95690700012528,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 3,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 204.45389500014244,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 4,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 277.13271900006475,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 5,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 276.48750599996674,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 6,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 233.6145579999993,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 7,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 144.91419599994515,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 8,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 214.8889650000001,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 9,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 204.98819999988882,
+      "error": null
+    },
+    {
+      "client": 19,
+      "request": 10,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 241.92463500003214,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 1,
+      "query": "writing help",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 543.0711559999963,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 2,
+      "query": "3D printer",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 268.0760250000276,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 3,
+      "query": "lost student ID",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 256.12157599994134,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 4,
+      "query": "academic advising",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 267.8846240000894,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 5,
+      "query": "financial aid",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 225.9196659999816,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 6,
+      "query": "library book",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 266.5031060000729,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 7,
+      "query": "parking permit",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 284.9660550000408,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 8,
+      "query": "transcript",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 201.7294199999924,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 9,
+      "query": "campus housing",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 216.37266599987015,
+      "error": null
+    },
+    {
+      "client": 20,
+      "request": 10,
+      "query": "career fair",
+      "http_status": 200,
+      "valid_response": true,
+      "ms": 268.0784039998798,
+      "error": null
+    }
+  ]
+}

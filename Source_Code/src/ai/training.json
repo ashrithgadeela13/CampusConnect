@@ -1,0 +1,130 @@
+{
+  "money": [
+    "financial aid award eligibility grants disbursement",
+    "my FAFSA scholarship or federal loan is missing",
+    "help paying tuition fees and payment plans",
+    "student account billing charge and refund questions",
+    "need to pay my balance in installments",
+    "how do I budget my money or manage debt",
+    "where can I learn about saving cash for college",
+    "why was my aid package changed",
+    "I have not received my grant payout",
+    "can I get a tuition payment receipt"
+  ],
+  "academics": [
+    "course registration and transcript request",
+    "where do I request academic records or proof of enrollment",
+    "plan my degree and find an academic advisor",
+    "class schedule and prerequisites",
+    "need one on one tutoring for this class",
+    "struggling with mathematics algebra and calculus",
+    "writing center essay draft revision feedback",
+    "a tutor for biology homework or study skills",
+    "graduate on time and check degree requirements",
+    "select classes for a major",
+    "get an official transcript online"
+  ],
+  "career": [
+    "apply for a job or internship",
+    "resume or CV review",
+    "Handshake on campus student employment",
+    "interview practice with a career specialist",
+    "prepare for an employer recruiting fair",
+    "job search after graduation",
+    "find part time work between classes",
+    "I need career coaching for an internship",
+    "learn how to write a cover letter",
+    "network with companies hiring students"
+  ],
+  "technology": [
+    "help desk reset my NetID password",
+    "university email or login not working",
+    "connecting a laptop to campus WiFi",
+    "account locked out multifactor authentication",
+    "troubleshoot a computer or technology problem",
+    "my password is rejected by MyMav",
+    "I cannot access Canvas or Teams",
+    "wireless internet connection keeps dropping",
+    "university software installation assistance",
+    "need support for campus IT systems"
+  ],
+  "health": [
+    "student health clinic doctor appointment",
+    "need a vaccination immunization record",
+    "see a nurse or schedule a medical visit",
+    "mental health counseling and stress support",
+    "need someone to talk to about anxiety",
+    "access a health center appointment",
+    "pharmacy prescriptions and clinic services",
+    "counselor support for emotional wellbeing",
+    "health services contact for medical records"
+  ],
+  "access": [
+    "disability accommodations for my class",
+    "need extra time on an exam",
+    "alternative testing center accessible tests",
+    "request accessible course materials",
+    "disability support for a wheelchair user",
+    "captioning and assistive technology for students",
+    "screen reader and accessible documents",
+    "need a note taking accommodation",
+    "request sign language interpreting"
+  ],
+  "international": [
+    "international student visa advising F-1 J-1",
+    "CPT and OPT work authorization",
+    "travel signature for my I-20",
+    "study abroad exchange program overseas",
+    "international advisor about my immigration status",
+    "GlobalMavs forms and maintaining status",
+    "I want to spend a semester overseas",
+    "extend my I20 document",
+    "scholar services and immigration advising"
+  ],
+  "library": [
+    "borrow a library book and renew my loan",
+    "find peer reviewed journal articles in databases",
+    "ask a librarian about research sources",
+    "3D printing fabrication lab makerspace",
+    "library equipment lending and checkout",
+    "reserve a library study room",
+    "central library hours and borrowing",
+    "access journals from off campus",
+    "fab lab laser cutter workshop",
+    "find special collections and archives"
+  ],
+  "housing": [
+    "apply for residence hall housing",
+    "campus apartment lease and move in",
+    "roommate selection and room changes",
+    "university housing contract or rental question",
+    "residence life hall staff and community",
+    "where can I live on campus",
+    "housing application and room assignment",
+    "request maintenance for my dorm room",
+    "renew or cancel a campus housing lease"
+  ],
+  "transport": [
+    "parking permit for my car",
+    "appeal a parking citation or ticket",
+    "find the campus shuttle bus schedule",
+    "ride the MavMover bus route",
+    "parking garage and student lots",
+    "get a ride across campus",
+    "visitor parking and transportation permit",
+    "shuttle stops and transportation maps",
+    "my vehicle was ticketed"
+  ],
+  "campus-life": [
+    "replace my Mav ID card or add Mav Money",
+    "join student organizations and clubs",
+    "campus recreation fitness center and sports",
+    "play an intramural game or workout",
+    "food pantry and basic needs support",
+    "student leadership and volunteer events",
+    "where to get a student identification card",
+    "student activities and campus involvement",
+    "basketball courts gym and recreation",
+    "university center events and student clubs"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-18T04:09:35.304270-06:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "cases": [
+    {
+      "id": "UAT-01",
+      "status": "Pass",
+      "observation": "Office details opened and guest feedback was acknowledged.",
+      "screenshot": "UAT-01.png"
+    },
+    {
+      "id": "UAT-02",
+      "status": "Pass",
+      "observation": "No-match result opened the guided topic choices.",
+      "screenshot": "UAT-02.png"
+    },
+    {
+      "id": "UAT-03",
+      "status": "Pass",
+      "observation": "Tab reached the labeled field and submit button; Enter returned Mav Card Office.",
+      "screenshot": "UAT-03.png"
+    },
+    {
+      "id": "UAT-04",
+      "status": "Pass",
+      "viewport_and_content_width": [
+        390,
+        390
+      ],
+      "observation": "Mobile result fit the viewport and the feedback button worked.",
+      "screenshot": "UAT-04.png"
+    },
+    {
+      "id": "UAT-05",
+      "status": "Fail",
+      "transcript": "I lost my ID card",
+      "submitted_question": "I lost my ID card Where can I get a new one?",
+      "recommended_offices": [
+        "Mav Card Office"
+      ],
+      "observation": "Transcript did not preserve the expected wording.",
+      "screenshot": "UAT-05.png"
+    },
+    {
+      "id": "UAT-06",
+      "status": "Pass",
+      "observation": "Simulated microphone denial showed an error and typed search worked.",
+      "screenshot": "UAT-06.png"
+    }
+  ],
+  "chrome_version": "157.0.8103.79"
+}

@@ -1,0 +1,3 @@
+export type Category={id:string;name:string;icon:string;color:string;position:number};
+export type Resource={id:string;category_id:string;category_name:string;category_icon:string;category_color:string;name:string;summary:string;description:string;location:string;hours:string;email:string;phone:string;url:string;tags:string;next_steps:string;status:"published"|"archived";source_checked_on:string;version:number;created_at:string;updated_at:string;updated_by:string};
+export type Account={id:string;email:string;name:string;role:"admin"|"student";student_preview:number;effectiveRole:"admin"|"student"};

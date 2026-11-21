@@ -1,0 +1,2 @@
+export async function api<T>(path:string,data?:unknown):Promise<T>{const res=await fetch(path,data===undefined?{cache:"no-store"}:{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data),cache:"no-store"});const parsed=await res.json() as {error?:string};if(!res.ok)throw new Error(parsed.error||"Couldn’t complete the request. Please try again.");return parsed as T;}
+export function message(e:unknown){return e instanceof Error?e.message:"Something went wrong. Please try again.";}

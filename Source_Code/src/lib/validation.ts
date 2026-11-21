@@ -1,0 +1,1 @@
+export function matchesResource(r:{name:string;summary:string;description:string;tags:string;category_name:string},query:string){const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);const haystack=[r.name,r.summary,r.description,r.tags,r.category_name].join(" ").toLowerCase();return terms.every(term=>haystack.includes(term));}

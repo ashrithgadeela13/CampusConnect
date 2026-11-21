@@ -1,0 +1,134 @@
+[
+  [
+    "My grant didn't show up this semester; who can check the amount?",
+    "money"
+  ],
+  [
+    "How do I get a receipt for the tuition I just paid?",
+    "money"
+  ],
+  [
+    "I cannot make my next installment and need budgeting help.",
+    "money"
+  ],
+  [
+    "I want official proof of all the courses I have finished.",
+    "academics"
+  ],
+  [
+    "Can someone look over the draft of my paper?",
+    "academics"
+  ],
+  [
+    "I am struggling with calculus and could use a tutor.",
+    "academics"
+  ],
+  [
+    "Who will review my CV before the employer fair?",
+    "career"
+  ],
+  [
+    "I want to apply for a summer internship.",
+    "career"
+  ],
+  [
+    "Where can I practice interviewing for a job?",
+    "career"
+  ],
+  [
+    "I keep getting locked out of my NetID.",
+    "technology"
+  ],
+  [
+    "My laptop refuses to join the campus wireless network.",
+    "technology"
+  ],
+  [
+    "I can’t open my university email account.",
+    "technology"
+  ],
+  [
+    "Where can I arrange an appointment with a nurse?",
+    "health"
+  ],
+  [
+    "Can I talk to a counselor about stress?",
+    "health"
+  ],
+  [
+    "I need to check my immunization record for the clinic.",
+    "health"
+  ],
+  [
+    "My disability means I need longer to finish tests.",
+    "access"
+  ],
+  [
+    "How can I request captions for class?",
+    "access"
+  ],
+  [
+    "I need accessible course materials.",
+    "access"
+  ],
+  [
+    "My I-20 is about to expire and I need an advisor.",
+    "international"
+  ],
+  [
+    "I would like to take classes abroad for a term.",
+    "international"
+  ],
+  [
+    "Who answers questions about F-1 travel signatures?",
+    "international"
+  ],
+  [
+    "I need to renew a book that I borrowed.",
+    "library"
+  ],
+  [
+    "Where can I use a 3D printer for my design?",
+    "library"
+  ],
+  [
+    "How do I search for journal articles for a paper?",
+    "library"
+  ],
+  [
+    "How do I apply to live in a residence hall?",
+    "housing"
+  ],
+  [
+    "I need help with my campus apartment lease.",
+    "housing"
+  ],
+  [
+    "My roommate and I want to change rooms.",
+    "housing"
+  ],
+  [
+    "How do I challenge a parking ticket?",
+    "transport"
+  ],
+  [
+    "Can I catch a shuttle between buildings?",
+    "transport"
+  ],
+  [
+    "I need a permit for my car.",
+    "transport"
+  ],
+  [
+    "Where can I get a replacement student ID?",
+    "campus-life"
+  ],
+  [
+    "I want to play intramural volleyball.",
+    "campus-life"
+  ],
+  [
+    "Where can I join a student organization?",
+    "campus-life"
+  ]
+]

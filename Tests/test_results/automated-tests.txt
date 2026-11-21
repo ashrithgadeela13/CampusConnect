@@ -1,0 +1,22 @@
+test_model2vec_reference (test_semantic_search.SearchQuality.test_model2vec_reference) ... ok
+test_office_level_evaluation (test_semantic_search.SearchQuality.test_office_level_evaluation) ... office-checks.json: expected first office on 32/32 questions.
+paraphrase-checks.json: expected first office on 13/16 questions.
+ok
+test_service_contrasts_and_published_only (test_semantic_search.SearchQuality.test_service_contrasts_and_published_only) ... ok
+test_bookmarks_are_private_and_persist_after_server_restart (test_website.Website.test_bookmarks_are_private_and_persist_after_server_restart) ... ok
+test_classifier_holdout (test_website.Website.test_classifier_holdout) ... Classifier: first 32/33, top three 32/33, unsupported rejected 4/4
+ok
+test_guest_directory_assets_and_filters (test_website.Website.test_guest_directory_assets_and_filters) ... ok
+test_guide_feedback_and_admin_dashboard (test_website.Website.test_guide_feedback_and_admin_dashboard) ... ok
+test_guide_metrics_and_privacy (test_website.Website.test_guide_metrics_and_privacy) ... ok
+test_home_and_guide_share_service_search (test_website.Website.test_home_and_guide_share_service_search) ... ok
+test_idle_connection_does_not_block_a_second_window (test_website.Website.test_idle_connection_does_not_block_a_second_window) ... ok
+test_legacy_client_topic_hint (test_website.Website.test_legacy_client_topic_hint) ... ok
+test_native_auth_sessions_and_forgery (test_website.Website.test_native_auth_sessions_and_forgery) ... ok
+test_rate_limit_and_guest_admin_boundary (test_website.Website.test_rate_limit_and_guest_admin_boundary) ... ok
+test_resources_categories_notices_and_roles (test_website.Website.test_resources_categories_notices_and_roles) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 6.436s
+
+OK

@@ -1,0 +1,694 @@
+{
+  "time": "2026-11-18T17:54:25.393984-06:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "search": {
+    "office-checks": [
+      {
+        "question": "A class isn't working for me. Can I leave it now and take it again in spring?",
+        "office": "academic-advising",
+        "actual_offices": [
+          "academic-advising",
+          "registrar"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I intend to stay enrolled in chemistry, but I need help keeping up with the homework.",
+        "office": "tutoring",
+        "actual_offices": [
+          "tutoring"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My employer needs an official copy of my academic record.",
+        "office": "registrar",
+        "actual_offices": [
+          "registrar"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I have two electives left; who can help me decide which one counts toward my major?",
+        "office": "academic-advising",
+        "actual_offices": [
+          "academic-advising"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I have an outline for an English paper. Who can read it and give me suggestions?",
+        "office": "writing-center",
+        "actual_offices": [
+          "writing-center"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Does anyone explain differential equations one-on-one?",
+        "office": "math-clinic",
+        "actual_offices": [
+          "math-clinic"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Where do I sign up for the TSI assessment?",
+        "office": "academic-testing",
+        "actual_offices": [
+          "academic-testing"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My tuition payment went through twice. Who can check my statement?",
+        "office": "student-accounts",
+        "actual_offices": [
+          "student-accounts"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I was awarded a Pell Grant but the money hasn't appeared.",
+        "office": "financial-aid",
+        "actual_offices": [
+          "financial-aid"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Rent and groceries keep eating my paycheck. I'd like someone to help me make a monthly budget.",
+        "office": "money-management",
+        "actual_offices": [
+          "money-management",
+          "maverick-pantry"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Who certifies my classes so the VA pays my education benefits?",
+        "office": "veterans",
+        "actual_offices": [
+          "veterans"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need someone to look at my resume before I meet recruiters.",
+        "office": "career-center",
+        "actual_offices": [
+          "career-center"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "An employer wants a video call and my dorm is noisy. Is there an interview space I can reserve?",
+        "office": "interview-room",
+        "actual_offices": [
+          "interview-room"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My university account won't accept my password anymore.",
+        "office": "it-service-desk",
+        "actual_offices": [
+          "it-service-desk",
+          "student-accounts"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Who can give me a copy of my vaccination history?",
+        "office": "health-services",
+        "actual_offices": [
+          "health-services"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I've been anxious for weeks and want an appointment with a counselor.",
+        "office": "counseling",
+        "actual_offices": [
+          "counseling"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I qualify for extended exam time. Who arranges that with my instructors?",
+        "office": "student-access",
+        "actual_offices": [
+          "student-access",
+          "tutoring"
+        ],
+        "actual_state": "clarify",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019m on an F-1 visa and might enroll below full time. Who can tell me what that means for my status?",
+        "office": "international-education",
+        "actual_offices": [
+          "international-education"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Can I earn credits at another university in Europe for a term?",
+        "office": "study-abroad",
+        "actual_offices": [
+          "study-abroad"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019d like to meet international classmates through a cultural event.",
+        "office": "global-engagement",
+        "actual_offices": [
+          "global-engagement"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My library book is due tomorrow. Can I keep it another week?",
+        "office": "central-library",
+        "actual_offices": [
+          "central-library"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need a laser cutter for a design project.",
+        "office": "fablab",
+        "actual_offices": [
+          "fablab"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My research dataset is ready; can someone help me run the statistics?",
+        "office": "research-lab",
+        "actual_offices": [
+          "research-lab"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "We have a student podcast and need somewhere quiet with microphones.",
+        "office": "the-studios",
+        "actual_offices": [
+          "the-studios"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I want to switch to a different on-campus apartment.",
+        "office": "housing-office",
+        "actual_offices": [
+          "housing-office"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019m short on groceries and can\u2019t buy much food this week.",
+        "office": "maverick-pantry",
+        "actual_offices": [
+          "maverick-pantry"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I was fined for leaving my car in the wrong lot. Where can I appeal?",
+        "office": "parking",
+        "actual_offices": [
+          "parking"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My next lecture is across campus. Where does the shuttle pick people up?",
+        "office": "mavmover",
+        "actual_offices": [
+          "mavmover"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My student identification card snapped. Where can I get another?",
+        "office": "mav-card",
+        "actual_offices": [
+          "mav-card"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Where can a few classmates sign up for an intramural basketball team?",
+        "office": "campus-rec",
+        "actual_offices": [
+          "campus-rec"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I want to find a student club for my interests.",
+        "office": "organizations",
+        "actual_offices": [
+          "organizations"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "If I reduce my credit hours, could that change the federal grant I receive?",
+        "office": "financial-aid",
+        "actual_offices": [
+          "financial-aid",
+          "academic-advising"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      }
+    ],
+    "paraphrase-checks": [
+      {
+        "question": "I have a conversation with a recruiter on camera and nowhere private to sit.",
+        "office": "interview-room",
+        "actual_offices": [
+          "interview-room"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019m out of things to eat before payday. Is there somewhere to pick up supplies?",
+        "office": "maverick-pantry",
+        "actual_offices": [
+          "maverick-pantry"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Someone found my wallet but the plastic badge that gets me into campus buildings is gone.",
+        "office": "mav-card",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "top1": false,
+        "top3": false,
+        "pass": false
+      },
+      {
+        "question": "My professor wants us to create an audio show. Where can we use sound equipment?",
+        "office": "the-studios",
+        "actual_offices": [
+          "the-studios"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need to get in shape. Is there somewhere on campus to lift weights?",
+        "office": "campus-rec",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "top1": false,
+        "top3": false,
+        "pass": false
+      },
+      {
+        "question": "Can a person check my job application letter before I send it to the company?",
+        "office": "career-center",
+        "actual_offices": [
+          "career-center"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I got a fine for where I left my vehicle.",
+        "office": "parking",
+        "actual_offices": [
+          "parking"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019m uncomfortable sharing a residence hall room with my current roommate; whom do I contact?",
+        "office": "housing-office",
+        "actual_offices": [
+          "housing-office"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need a clinician to review my vaccine history.",
+        "office": "health-services",
+        "actual_offices": [
+          "health-services"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I would like somebody to read the first version of my English composition.",
+        "office": "writing-center",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "top1": false,
+        "top3": false,
+        "pass": false
+      },
+      {
+        "question": "I think an overseas exchange would be fun; whom can I ask about earning credit?",
+        "office": "study-abroad",
+        "actual_offices": [
+          "study-abroad"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My research findings are in a spreadsheet. I need a hand interpreting the figures.",
+        "office": "research-lab",
+        "actual_offices": [
+          "research-lab"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Is there an earlier shuttle from my building to my morning lecture?",
+        "office": "mavmover",
+        "actual_offices": [
+          "mavmover"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need to postpone one of my modules until a future term.",
+        "office": "academic-advising",
+        "actual_offices": [
+          "academic-advising",
+          "registrar"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I\u2019d like to meet a therapist to talk about stress from school.",
+        "office": "counseling",
+        "actual_offices": [
+          "counseling"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "The Wi-Fi keeps disconnecting my tablet during class.",
+        "office": "it-service-desk",
+        "actual_offices": [
+          "it-service-desk"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      }
+    ],
+    "unsupported": [
+      {
+        "question": "Who won the World Cup in 1986?",
+        "state": "none",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "pass": true
+      },
+      {
+        "question": "What is the capital of Finland?",
+        "state": "none",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "pass": true
+      },
+      {
+        "question": "Give me a recipe for blueberry muffins.",
+        "state": "none",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "pass": true
+      },
+      {
+        "question": "hello",
+        "state": "none",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "pass": true
+      }
+    ],
+    "extra": [
+      {
+        "question": "My student ID went missing. Who issues a replacement?",
+        "office": "mav-card",
+        "actual_offices": [
+          "mav-card"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I need a second pair of eyes on the thesis statement in my essay.",
+        "office": "writing-center",
+        "actual_offices": [
+          "writing-center"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "I want to make a plastic prototype with a 3D printer.",
+        "office": "fablab",
+        "actual_offices": [
+          "fablab"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "Where do I return a book I checked out on campus?",
+        "office": "central-library",
+        "actual_offices": [
+          "central-library"
+        ],
+        "actual_state": "match",
+        "method": "model2vec",
+        "top1": true,
+        "top3": true,
+        "pass": true
+      },
+      {
+        "question": "My account",
+        "state": "clarify",
+        "actual_offices": [
+          "it-service-desk",
+          "student-accounts"
+        ],
+        "actual_state": "clarify",
+        "method": "model2vec",
+        "pass": true
+      },
+      {
+        "question": "How do I repair a bicycle tire?",
+        "state": "none",
+        "actual_offices": [],
+        "actual_state": "none",
+        "method": "model2vec",
+        "pass": true
+      }
+    ]
+  },
+  "draft": {
+    "status": "Pass",
+    "text": "What should I bring to get a replacement student ID?",
+    "mentions_relevant_topic": true
+  }
+}

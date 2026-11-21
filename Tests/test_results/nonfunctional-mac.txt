@@ -1,0 +1,30 @@
+Wed Nov 18 17:50:45 CST 2026
+Python 3.13.7
+test_NF_01_latency_and_success (__main__.LocalChecks.test_NF_01_latency_and_success) ... 
+/api/health: 100/100 HTTP 200, p50=3.26 ms, p95=5.63 ms, max=7.27 ms
+
+/api/bootstrap: 100/100 HTTP 200, p50=35.37 ms, p95=39.19 ms, max=40.46 ms
+ok
+test_NF_02_bookmarks_persist (__main__.LocalChecks.test_NF_02_bookmarks_persist) ... ok
+test_NF_03_feedback_persists (__main__.LocalChecks.test_NF_03_feedback_persists) ... ok
+test_NF_04_admin_dashboard_access (__main__.LocalChecks.test_NF_04_admin_dashboard_access) ... 
+Dashboard guest: HTTP 401 (expected 401)
+
+Dashboard student: HTTP 403 (expected 403)
+
+Dashboard admin: HTTP 200 (expected 200)
+ok
+test_NF_05_response_headers (__main__.LocalChecks.test_NF_05_response_headers) ... 
+X-Content-Type-Options: nosniff
+
+X-Frame-Options: DENY
+
+Referrer-Policy: strict-origin-when-cross-origin
+
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; form-action 'self'; base-uri 'none'
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.370s
+
+OK
